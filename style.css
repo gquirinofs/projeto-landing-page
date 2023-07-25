@@ -1,0 +1,192 @@
+/* GERAL */
+
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: "inter";
+}
+
+/* GRÁFICOS - MENU SUPERIOR */
+
+#menusuperior{
+    background-image: url(imagens/capa.svg);
+    height: 560px;
+}
+
+#logo{
+    width: 125px;
+    height: 62px;
+    margin: 52px 0px 0px 56px;
+}
+
+/* TEXTOS - MENU SUPERIOR */
+
+#titulomenu{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 128,5%;
+    margin: 71px 0px 32px 172px;
+}
+
+#sloganmenu{
+    color: #fff;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0px 0px 151px 172px;
+}
+
+/* MENU INFORMACIONAL */
+
+#menuinfo{
+    height: 170px;
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#icertificado{
+    width: 40px;
+    height: 40px;
+}
+
+#ihoras{
+    width: 40px;
+    height: 40px;
+}
+
+#ivideo{
+    width: 40px;
+    height: 40px;
+}
+
+.icones{
+    margin: 65px 0px 65px 80px;
+    padding-right: 16px;
+}
+
+.ptextoinfo{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* SEÇÃO - VÍDEO */
+
+#video{
+    margin: 80px 0px 80px 150px;;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulovideo{
+    color: #247BA0;
+    font-size: 32px;
+    line-height: 150%;
+    margin: 100px 0px 24px;
+}
+
+#callvideo{
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* SOCIAL PROOF */
+
+#socialproof{
+    background-color: #247BA0;
+    height: 444px;
+}
+
+#sptitulo{
+    color: #EAECE5;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.cards{
+    width: 532px;
+    height: 172px;
+    margin-top: 64px;
+    padding-left: 60px;
+}
+
+.setas{
+    margin-top: 60%;
+    cursor: pointer
+}
+
+.setas:hover{
+    transform: translateY(-10px);
+    transition-duration: 500ms;
+}
+
+#samantha{
+    display: none;
+}
+
+#sleft{
+    display: none;
+    margin-left: 60%;
+    margin-top: 85%;
+}
+
+/* FORMULÁRIO */
+
+#formulario{
+    text-align: center;
+
+}
+
+#ftitle{
+    color: #383838;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 22px;
+}
+
+input{
+    width: 413px;
+    height: 53px;
+    background-color: #EAECE5;
+    margin: 20px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    width: 335px;
+    height: 53px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 35px;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 500ms;
+}
